@@ -14,6 +14,7 @@ img{
 }
 
 h1, h2 {
+  font-family: 'Patua One', cursive;
   color: #5d8432;
   text-transform: uppercase;
 }
@@ -22,4 +23,23 @@ figcaption {
   font-size: .8rem;
   font-style: italic;
   text-align: center;
+}
+
+nav {
+  font-family: 'Patua One', cursive;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: #b42885;
+  text-decoration: underline;
+}
+
+.intro {
+  font-size: 1rem;
 }
